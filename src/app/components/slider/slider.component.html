@@ -1,0 +1,12 @@
+<div class="sliderContainer">
+  <h2>Word to be generated:-{{ rangeValue }}</h2>
+  <input
+    type="range"
+    name="range"
+    min="1"
+    max="50"
+    class="slider"
+    [(ngModel)]="rangeValue"
+    (change)="handleChange()"
+  />
+</div>

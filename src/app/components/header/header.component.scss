@@ -1,0 +1,11 @@
+header {
+  max-width: 90%;
+  margin: 1rem auto;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+
+  .title {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+  }
+}

@@ -1,0 +1,27 @@
+.word-generator {
+  color: white;
+  max-width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+
+  .generateBtn {
+    margin-top: 2rem;
+    background-color: darkslateblue;
+    color: white;
+    border-color: darkslateblue;
+    padding: 0.6rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .container {
+    max-width: clamp(300px, 50%, 600px);
+    margin: 3rem auto;
+    background-color: darkslateblue;
+    padding: 1.5rem 1rem;
+    span {
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+  }
+}

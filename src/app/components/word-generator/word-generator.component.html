@@ -1,0 +1,13 @@
+<div class="word-generator">
+  <app-slider (inputRangeVal)="inputRangeValue = $event"></app-slider>
+
+  <button class="generateBtn" (click)="handleGenerate()">Generate</button>
+
+  <ng-template [ngIf]="generate">
+    <div class="container">
+      <span *ngFor="let item of slicedArr">
+        {{ item }}
+      </span>
+    </div>
+  </ng-template>
+</div>
